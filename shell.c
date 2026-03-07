@@ -24,11 +24,6 @@ int builtIn_command(char *arg);
 
 void cd(char *arg,char *pwd,char *home,char *prompt);
 
-/*
-cd dir (dir that is inside the working dir)
-cd /dir (absolute dir)
-cd ..   (one step back in in the path, if not root already)
-*/
 
 int 
 main(void)
